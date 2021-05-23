@@ -5,10 +5,10 @@ html {
 ::selection {display: none}
 
 .rnd {
-	color: #1a3400;
+	color: #203420;
 	background-color: #000c00;
 	border: solid;
-	border-color: #112200;
+	border-color: #162216;
 	border-width: 10px;
 	top: 30%;	
 	left: 50%;
@@ -64,9 +64,9 @@ html {
 
 .del {
 	top: calc(20px + 75px * 6);
-	border-color: #101022;
-	color: #1a1a33;
-	background-color: #000006;
+	border-color: #042200;
+	color: #063300;
+	background-color: #020600;
 }
 
 .count {
