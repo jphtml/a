@@ -40,6 +40,7 @@
             <div id="m" class="drp" onclick="aplay(0)"><b>OFF</b></div>
         </div>
         <script>
+		function grayify() {
 			let classes = ["word","rp","rs","switch","say","fr","s","d","rem","m","z"];
 			for(let i in classes){
 				let c = document.getElementById(classes[i]);
@@ -47,6 +48,7 @@
 				c.style.backgroundColor = "#000000";
 				c.style.color = "#111111";
 			}
+		}
         </script>
 
     </body>
