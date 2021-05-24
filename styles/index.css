@@ -13,7 +13,7 @@ html {
 	bottom: 0%;
 	left: 50%;
 	margin-left: -400px;
-	padding: 40px;
+	padding: 40px 0;
 	width: 800px;
 	position: fixed;
 	font-size: 70px;
@@ -193,8 +193,8 @@ button:focus {outline:0;}
 	}
 	.f, .replay {left: 50%;}
 	.f {bottom: 15%;}
-	.replay {bottom: 35%;}
-	.rnd {bottom: 60%; font-size: 90px;}
+	.replay {bottom: 30%;}
+	.rnd {bottom: 50%; font-size: 90px; width: 90%; margin-left: -45%;}
 	
 	.sw, .r, .play, .show, .remove, .del {
 		border-width: 4px;
