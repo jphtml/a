@@ -10,7 +10,7 @@ html {
 	border: solid;
 	border-color: #162216;
 	border-width: 10px;
-	bottom: 0%;
+	bottom: 45%;
 	left: 50%;
 	margin-left: -400px;
 	padding: 40px 0;
@@ -179,7 +179,7 @@ button:focus {outline:0;}
 	.del {top: calc(10px + 50px * 5)}
 }
 
-@media screen and (min-height: 600px) {
+@media screen and (min-height: 1000px) {
 	.count {font-size: 68px; width: 160px; padding: 24px 0;}
 	.drp {font-size: 44px; width: 140px; padding: 40px 0;}
 	.fill {font-size: 44px; width: 140px; padding: 40px 0;}
