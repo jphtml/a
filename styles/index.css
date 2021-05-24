@@ -185,9 +185,31 @@ button:focus {outline:0;}
 	.del {top: calc(10px + 50px * 5)}
 }
 
-@media screen and (min-height: 800px) {
+@media screen and (min-height: 600px) {
 	.count {font-size: 68px; width: 160px; padding: 24px 0;}
 	.drp {font-size: 44px; width: 140px; padding: 40px 0;}
 	.fill {font-size: 44px; width: 140px; padding: 40px 0;}
 	.content {font-size: 44px; width: 140px; padding: 22px 0px;}
+	.f, .replay {left: 50%;}
+	.f {bottom: 15%;}
+	.replay {bottom: 30%;}
+	.rnd {bottom: 50%;}
+	
+	.sw, .r, .play, .show, .remove, .del {
+		border-width: 4px;
+		border-style: solid;
+		position: fixed;
+		font-size: 46px;
+		padding: 20px 0px;
+		right: 20px;
+		width: 240px;
+	}
+	.sw, .play, .remove {right: 280px;}
+	.sw {top: 20px}
+	.r {top: 20px}
+	.play {top: calc(20px + 160px)}
+	.show {top: calc(20px + 160px)}
+	.remove {top: calc(20px + 160px * 2)}
+	.del {top: calc(20px + 160px * 2)}
 }
+z
