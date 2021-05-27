@@ -192,6 +192,7 @@ button:focus {outline:0;}
 
 @media screen and (min-height: 1000px) {
 	.count {font-size: 68px; width: 160px; padding: 24px 0;}
+	.fcount {font-size: 40px; width: 110px; padding: 20px 0; left: 20px: top: 170px;}
 	.drp {font-size: 44px; width: 140px; padding: 40px 0;}
 	.fill {font-size: 44px; width: 140px; padding: 40px 0;}
 	.content {font-size: 44px; width: 140px; padding: 22px 0px;}
