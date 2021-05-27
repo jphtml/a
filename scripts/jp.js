@@ -13,12 +13,9 @@ let t2 = [
 "はだか","はで","はく","ほしょう","いねむり",
 "にんしゅ","じたい","じつげん","","",
 ];
-let frgt = [];
-let frgtURL = [];
 let unm = t1;
 
-let w1 = [], w2 = [], w3 = [], w4 = [];
-let temp = []
+let w1 = [], w2 = [], w3 = [], w4 = [], frgt = [], frgtURL = [], temp = [];
 fill(w1,listA);
 fill(w2,listB);
 fill(w3,listC);
@@ -53,9 +50,10 @@ function reset(array, vocabulary) {
 			pool = temp;
 			fill(temp,unm);
 			break;
-		default:
-			pool = frgt;
+		case "frgt":
 			frgt = [];
+			frgtURL = [];
+			pool = frgt;
 	}
 	document.getElementById('rem').innerHTML = "<b>"+pool.length+"</b>";
 }
