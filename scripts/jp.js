@@ -28,7 +28,7 @@ let play = true;
 let interval = null;
 let del = false;
 
-function reset(array, vocabulary) {
+function reset() {
 	switch(mode) {
 		case 0:
 			pool = w1;
@@ -114,7 +114,8 @@ function rndize(){
 	if(pool.length<1) return;
 	let n = Math.floor(Math.random()*pool.length);
 	let result = pool[n];
-	if(del===true) pool.splice(n,1);
+	pool.splice(n,1);
+	if(del===false && pool.length<100) reset();
 	document.getElementById('rem').innerHTML = "<b>"+pool.length+"</b>";
 	document.getElementById('word').innerHTML = result;
 	console.log(result);
